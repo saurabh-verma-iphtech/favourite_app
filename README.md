@@ -2,6 +2,7 @@
 
 Favourite App is a Flutter mini-project that allows users to add items, search through them, and mark or filter their favorites using Riverpod for state management.
 
+
 🌟 Project Highlights
 
 🔍 Search Functionality
@@ -10,11 +11,13 @@ Real-time filtering as you type in the search bar.
 
 Case-insensitive matching on item names.
 
+
 🌟 Favourite Management
 
 Mark items as favorite with a popup menu selection.
 
 Filter view to show all items or only favorites.
+
 
 🛠 State Management with Riverpod
 
@@ -40,6 +43,7 @@ Methods: addItem(), filterList(String query), favourite(String filterType).
 
 UI automatically updates on state changes.
 
+
 🎨 User Interface
 
 AppBar with title “Favourite App” and popup menu (All/Favourite filter).
@@ -49,6 +53,7 @@ Search Bar with TextField for input and outlined border.
 ListView displaying filteredItems with a heart icon indicating favorite status.
 
 FloatingActionButton to add new items to the list.
+
 
 🧰 Tech Stack
 
